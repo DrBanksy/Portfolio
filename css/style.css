@@ -16,10 +16,40 @@
 	background-image: url('../img/icons/next.png');
 }
 
+.slides-navigation {
+	z-index:  6;
+}
+
 .overlay {
 	width: 100%;
 	height: 100%;
 	position:  absolute;
 	z-index: 3;
 	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.title {
+	position: absolute;
+    z-index: 5;
+    width: 100%;
+    top: 50%;
+    height: 250px;
+    text-align: center;
+    margin-top: -125px;
+}
+
+.title .heading p {
+	color: #fff;
+    text-shadow: 0px 2px 5px rgb(0 0 0 / 40%);
+    font-weight: 100;
+    letter-spacing: 7px;
+}
+
+.title .heading .name {
+	font-size: 40px;
+}
+
+
+.title .heading .position {
+	font-size: 20px;
 }
