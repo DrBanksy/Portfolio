@@ -5,4 +5,12 @@ $(document).ready(function(){
 		pagination: false
 	});
 
+	var typed = new Typed(".typedAnim", {
+		strings: ["Computer Science Student @ TUD.", "Web Developer."],
+		typeSpeed: 50,
+		startDelay: 1000,
+		loopCount: Infinity
+
+	});
+
 });
