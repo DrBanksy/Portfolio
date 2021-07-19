@@ -53,3 +53,21 @@
 .title .heading .position {
 	font-size: 20px;
 }
+
+.section {
+	padding: 100px 0;
+}
+
+.title .heading {
+	max-width: 50%;
+}
+
+.heading {
+	margin: auto;
+}
+
+.aboutImage {
+	width: 100%;
+}
+
+

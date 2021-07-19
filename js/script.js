@@ -9,7 +9,9 @@ $(document).ready(function(){
 		strings: ["Computer Science Student @ TUD.", "Web Developer."],
 		typeSpeed: 50,
 		startDelay: 1000,
-		loopCount: Infinity
+		loop: true,
+		loopCount: Infinity,
+		showCursor: false
 
 	});
 
