@@ -1,3 +1,8 @@
+body {
+	background-color: #fbfbfd;
+	font-family: 'Poppins', sans-serif;
+}
+
 .slides-navigation .prev,
 .slides-navigation .next {
 	width: 47px;
@@ -68,6 +73,10 @@
 
 .aboutImage {
 	width: 100%;
+}
+
+#aboutMeText {
+	padding-left: 2em;
 }
 
 
