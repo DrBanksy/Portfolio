@@ -87,9 +87,41 @@ body {
 }
 
 .skillSection {
-	background-color: #2980b9;
+	background-color: #34495e;
 	color: #fff;
 	letter-spacing: 1px;
+	padding: 5em 0em 5em 0em;
 }
 
+.skill {
+	text-align: center;
+	margin-left: 2em;
+}
 
+.skill h4 {
+	padding-top: 0.5em;
+}
+
+.chart{
+	position: relative;
+	width: 152px;
+	height: 152px;
+	display: inline-block;
+	text-align: center;
+}
+
+.chart canvas {
+	position: absolute;
+	top:  0;
+	left: 0;
+}
+
+.chart .percent {
+	line-height: 152px;
+	font-size: 28px;
+	color: black;
+}
+
+.chart .percent:after {
+	content: '%';
+}
