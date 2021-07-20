@@ -95,7 +95,8 @@ body {
 
 .skill {
 	text-align: center;
-	margin-left: 2em;
+	margin-left: 1em;
+  margin-right: 1em;
 }
 
 .skill h4 {
@@ -126,7 +127,7 @@ body {
 	content: '%';
 }
 
-.test{
+.item1{
 	position: relative;
 	width: 152px;
 	height: 152px;
@@ -134,22 +135,87 @@ body {
 	text-align: center;
 }
 
-.test canvas {
+.item1 canvas {
 	position: absolute;
 	top:  0;
 	left: 0;
 }
 
-.test .percent {
+.item1 .percent {
 	line-height: 152px;
 	font-size: 28px;
 	color: white;
 }
 
-.test .percent:after {
-	content: '%';
+.item2{
+  position: relative;
+  width: 152px;
+  height: 152px;
+  display: inline-block;
+  text-align: center;
 }
+
+.item2 canvas {
+  position: absolute;
+  top:  0;
+  left: 0;
+}
+
+.item2 .percent {
+  line-height: 152px;
+  font-size: 28px;
+  color: white;
+}
+
+.item3{
+  position: relative;
+  width: 152px;
+  height: 152px;
+  display: inline-block;
+  text-align: center;
+}
+
+.item3 canvas {
+  position: absolute;
+  top:  0;
+  left: 0;
+}
+
+.item3 .percent {
+  line-height: 152px;
+  font-size: 28px;
+  color: white;
+}
+
+.item4{
+  position: relative;
+  width: 152px;
+  height: 152px;
+  display: inline-block;
+  text-align: center;
+}
+
+.item4 canvas {
+  position: absolute;
+  top:  0;
+  left: 0;
+}
+
+.item4 .percent {
+  line-height: 152px;
+  font-size: 28px;
+  color: white;
+}
+
+
+
+
 
 #technicalStack {
 	padding-bottom:  1.5em;
 }
+
+
+
+
+
