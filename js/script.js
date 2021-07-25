@@ -101,3 +101,17 @@ $(document).ready(function(){
     });
 
 });
+
+function decode(a) {
+	return a.replace(/[a-zA-Z]/g, function(c){
+		return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) 
+				                               ? c : c - 26);
+	})
+}; 
+				
+function wordPlay(element) {
+	var y = decode("znvygb:pbeznp.fzvgu23@tznvy.pbz");
+	element.setAttribute("href", y);
+	element.setAttribute("onclick", "");
+	element.firstChild.nodeValue = "Open email software";
+};
