@@ -113,5 +113,5 @@ function wordPlay(element) {
 	var y = decode("znvygb:pbeznp.fzvgu23@tznvy.pbz");
 	element.setAttribute("href", y);
 	element.setAttribute("onclick", "");
-	element.firstChild.nodeValue = "Open email software";
+	element.firstChild.nodeValue = "Message";
 };

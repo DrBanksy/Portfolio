@@ -209,13 +209,38 @@ body {
   color: white;
 }
 
-
-
-
-
 #technicalStack {
 	padding-bottom:  1.5em;
 }
+
+#contact {
+	background-color: #fbfbfd;
+	color: #333;
+}
+
+.contactBtn {
+	color: #333;
+  padding: 15px 20px;
+  display: inline-block;
+  margin-top: 1em;
+  border: 1px solid #333;
+  border-radius: 0.2em;
+}
+
+.contactBtn:hover {
+	text-decoration:  none;
+	background-color: #34495e;
+	color: #fff;
+
+}
+
+#contact a {
+	text-decoration:  none;
+}
+
+
+
+
 
 
 
