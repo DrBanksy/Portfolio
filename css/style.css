@@ -5,6 +5,10 @@ body {
 	color: #333;
 }
 
+a{
+	text-decoration:  none;
+}
+
 .slides-navigation .prev,
 .slides-navigation .next {
 	width: 47px;
@@ -222,7 +226,6 @@ body {
 	color: #333;
   padding: 15px 20px;
   display: inline-block;
-  margin-top: 1em;
   border: 1px solid #333;
   border-radius: 0.2em;
 }
@@ -273,6 +276,40 @@ body {
 	border-color: #3498db;
 }
 
+.items li {
+	display: inline-block;
+	padding: 5px;
+
+}
+
+.itemsContainer {
+	width: 100%;
+}
+
+.items li img {
+	width: 100%;
+}
+
+.items .item {
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+.items .icons {
+	position: absolute;
+	width: 90px;
+	height: 40px;
+	left: 50%;
+	top:  50%;
+	margin:  -20px auto 0 -47px;
+	text-align: center;
+	z-index:  3;
+}
+
+.items .icons i {
+	color: #fff;
+}
 
 
 

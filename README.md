@@ -14,3 +14,5 @@ Portfolio website which provides some information about me and my interests.
 - https://owlcarousel2.github.io/OwlCarousel2/docs/started-welcome.html
 - https://github.com/rendro/easy-pie-chart
 - https://github.com/mack/github-pinner
+- https://isotope.metafizzy.co/
+- https://fancyapps.com/docs/ui/fancybox/

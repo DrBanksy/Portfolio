@@ -6,7 +6,7 @@ $(document).ready(function(){
 	});
 
 	var typed = new Typed(".typedAnim", {
-		strings: ["Computer Science Student @ TUD.", "Web Developer."],
+		strings: ["Computer Science Student @ TUD.", "Web Developer.", "Data Analyst."],
 		typeSpeed: 50,
 		startDelay: 1000,
 		loop: true,
@@ -99,6 +99,18 @@ $(document).ready(function(){
     		});
     	}
     });
+
+
+    // $("[data-fancybox]").fancybox();
+
+    $(".items").isotope({
+    	filter: "*",
+    	animationOptions: {
+    		duration: 1500,
+    		easing: 'linear',
+    		queue: false
+    	}
+    })
 
 });
 
