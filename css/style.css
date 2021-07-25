@@ -323,3 +323,15 @@ a{
 	border-radius: 0.2em;
 }
 
+.itemsContainer img{
+	border-radius: 0.2em;
+}
+
+.item {
+	padding: 1em;
+}
+
+.items {
+	padding:  0;
+}
+
