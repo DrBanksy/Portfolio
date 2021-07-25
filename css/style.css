@@ -274,6 +274,7 @@ a{
 .filter .current {
 	background-color: #3498db;
 	border-color: #3498db;
+	border-radius:  0.2em;
 }
 
 .items li {
@@ -319,11 +320,6 @@ a{
 	background-color: #3498db;
 	position: relative;
 	display: inline-block;
+	border-radius: 0.2em;
 }
-
-
-
-
-
-
 
