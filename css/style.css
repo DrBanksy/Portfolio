@@ -86,7 +86,8 @@ body {
 	box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
-.skillSection {
+.skillSection,
+.contactSection {
 	background-color: #34495e;
 	color: #fff;
 	letter-spacing: 1px;
