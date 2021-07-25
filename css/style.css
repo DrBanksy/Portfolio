@@ -238,6 +238,40 @@ body {
 	text-decoration:  none;
 }
 
+#portfolio {
+	color: #fff;
+	background-color: #34495e;
+}
+
+.filter {
+	text-align: center;
+	width: 100%;
+}
+
+.section .heading {
+	text-align: center;
+	padding-bottom:  2em;
+	width: 100%;
+}
+
+.filter a {
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 0.8em 1em;
+	display: block;
+	text-decoration: none;
+
+}
+
+.filter li {
+	display:inline-block;
+	padding:0.8em;
+}
+
+.filter .current {
+	background-color: #3498db;
+	border-color: #3498db;
+}
 
 
 
