@@ -339,5 +339,18 @@ a{
   position: absolute;
   top: 0px;
   left: 0px;
+  opacity: 0;
+
+  -webkit-transition:  all 0.2s linear, 1s;
+  -moz-transition:  all 0.2s linear, 1s;
+  -o-transition:  all 0.2s linear, 1s;
+  -ms-transition:  all 0.2s linear, 1s;
+  -transition:  all 0.2s linear, 1s;
+
+
+}
+
+.items .item:hover .image-overlay{
+	opacity: 1;
 }
 
