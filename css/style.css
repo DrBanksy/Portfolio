@@ -321,6 +321,12 @@ a{
 	position: relative;
 	display: inline-block;
 	border-radius: 0.2em;
+
+	-webkit-transition:  all 0.2s linear, 0.2s;
+  -moz-transition:  all 0.2s linear, 0.2s;
+  -o-transition:  all 0.2s linear, 0.2s;
+  -ms-transition:  all 0.2s linear, 0.2s;
+  -transition:  all 0.2s linear, 0.2s;
 }
 
 .itemsContainer img{
@@ -354,3 +360,20 @@ a{
 	opacity: 1;
 }
 
+.items .openFullBtn {
+	float:  left;
+	left:  -200px;
+}
+
+.items .projectLinkBtn {
+	float:  right;
+	right: -200px;
+}
+
+.items .item:hover .openFullBtn {
+	left: 0px;
+}
+
+.items .item:hover .projectLinkBtn {
+	right: 0px;
+}

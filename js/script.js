@@ -110,7 +110,28 @@ $(document).ready(function(){
     		easing: 'linear',
     		queue: false
     	}
-    })
+    });
+
+    $("#filters a").click(function() {
+    	$("#filters .current").removeClass("current");
+    	//this refers to the element that was clicked on
+    	$(this).addClass("current");
+
+    	//get value associated with the attribute 'data-filter'
+    	var selector = $(this).attr("data-filter");
+		$(".items").isotope({
+			filter: selector,
+			animationOptions: {
+				duration: 1500,
+				easing: 'linear',
+				queue: false
+			}
+		})
+
+		// returning essentially means dont do anything else aka break
+		return false;
+
+    });
 
 });
 
