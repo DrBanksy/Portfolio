@@ -438,18 +438,23 @@ a{
 .social-icon {
   color: #fff;
   background: #3498db; 
-  font-size:1em;
+  font-size:1.1em;
   border-radius: 50%;
-  line-height: 2.2em;
-  width: 2.1em;
-  height: 2.1em;
+  line-height: 2.3em;
+  width: 2.2em;
+  height: 2.2em;
   text-align: center;
   display: inline-block;
 }
 
 li:hover {
-    transform: translateY(-4px);
+    transform: translateY(-6px);
     transition:0.3s;
+}
+
+/* white separator between name and tabs */
+.container-fluid img {
+	width: 1.2em;
 }
 
 
