@@ -36,7 +36,7 @@ a{
 	height: 100%;
 	position:  absolute;
 	z-index: 3;
-	background-color: rgba(0, 0, 0, 0.4);
+	background-color: rgba(0, 0, 0, 0.6);
 }
 
 .title {
@@ -232,7 +232,7 @@ a{
 
 .contactBtn:hover {
 	text-decoration:  none;
-	background-color: #34495e;
+	background-color: #3498db;
 	color: #fff;
 
 }
@@ -433,6 +433,23 @@ a{
   -o-transition:  all 0.2s linear, 1s;
   -ms-transition:  all 0.2s linear, 1s;
   -transition:  all 0.2s linear, 1s;
+}
+
+.social-icon {
+  color: #fff;
+  background: #3498db; 
+  font-size:1em;
+  border-radius: 50%;
+  line-height: 2.2em;
+  width: 2.1em;
+  height: 2.1em;
+  text-align: center;
+  display: inline-block;
+}
+
+li:hover {
+    transform: translateY(-4px);
+    transition:0.3s;
 }
 
 
