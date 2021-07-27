@@ -133,6 +133,26 @@ $(document).ready(function(){
 
     });
 
+    const nav = $("#navigation");
+    const navTop = nav.offset().top; // calculated when page loads
+
+    $(window).on("scroll", stickyNavigation);
+
+    function stickyNavigation(){
+    	console.log("hello");
+    	const body = $("body");
+
+    	/*
+	    	when page is scrolled past the top of the navbar apply
+	    	fixed class
+    	*/ 
+    	if($(window).scrollTop() >= navTop) {
+    		body.addClass("fixedNavbar");
+    	} else {
+    		body.removeClass("fixedNavbar");
+    	}
+    }
+
 });
 
 function decode(a) {

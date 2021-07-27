@@ -413,5 +413,10 @@ a{
 	background-size: 100%;
 }
 
+.fixedNavbar #navigation {
+	position:  fixed;
+	top: 0;
+}
+
 
 
