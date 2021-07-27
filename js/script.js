@@ -147,8 +147,10 @@ $(document).ready(function(){
 	    	fixed class
     	*/ 
     	if($(window).scrollTop() >= navTop) {
+    		body.css("padding-top", nav.outerHeight() + "px");
     		body.addClass("fixedNavbar");
     	} else {
+    		body.css("padding-top", 0);
     		body.removeClass("fixedNavbar");
     	}
     }
