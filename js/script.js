@@ -139,7 +139,6 @@ $(document).ready(function(){
     $(window).on("scroll", stickyNavigation);
 
     function stickyNavigation(){
-    	console.log("hello");
     	const body = $("body");
 
     	/*
@@ -155,16 +154,17 @@ $(document).ready(function(){
     	}
     }
 
-    // $("#navigation li a").click(function(e) {
-    // 	e.preventDefault();
+    $(window).on("scroll", checkNavBar);
 
-    // 	// get href attr of item we clicked on
-    // 	var targetElement = $(this).attr("href");
+    function checkNavBar() {
+    	const body = $(".navbar-brand");
 
-    // 	var targetPosition = $(targetElement).offset().top;
-    // 	$("html, body").animate({scrollTop: targetPosition - 50}, 500);
-    // });
-
+    	if($(window).width() < 992) {
+    		$(".navbar-brand").text("Menu")
+    	} else {
+    		$(".navbar-brand").text("Cormac Smith")
+    	}
+    }
 });
 
 function decode(a) {
