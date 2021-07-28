@@ -233,6 +233,26 @@ a{
   color: white;
 }
 
+.item6{
+  position: relative;
+  width: 152px;
+  height: 152px;
+  display: inline-block;
+  text-align: center;
+}
+
+.item6 canvas {
+  position: absolute;
+  top:  0;
+  left: 0;
+}
+
+.item6 .percent {
+  line-height: 152px;
+  font-size: 28px;
+  color: white;
+}
+
 #technicalStack {
 	padding-bottom:  1.5em;
 }
@@ -665,6 +685,18 @@ li:hover {
 	font-size: 0.9em;
 }
 
+#dubAcademy {
+	background-color: #003366;
+}
+
+#tud {
+	background-color: #004C6C;
+}
+
+#aib {
+	background: rgb(127,43,123);
+	background: linear-gradient(90deg, rgba(127,43,123,1) 30%, rgba(232,62,140,1) 92%);
+}
 
 
 

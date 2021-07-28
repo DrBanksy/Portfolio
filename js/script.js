@@ -109,6 +109,18 @@ $(document).ready(function(){
 	            	$(this.el).find('.percent').text(Math.round(percent));
             	}
     		});
+
+    		$('.item6').easyPieChart({
+	            easing: 'easeInOut',
+	            barColor: 	'#7f52ff',
+	            trackColor: false,
+	            scaleColor: false,
+	            lineWidth: 4,
+	            size: 152,
+	            onStep: function(from, to, percent) {
+	            	$(this.el).find('.percent').text(Math.round(percent));
+            	}
+    		});
     	}
     });
 
