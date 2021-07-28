@@ -180,17 +180,27 @@ $(document).ready(function(){
 
     $(window).resize(function() {
     	const nav = $(".navbar-brand");
+    	const imgCon = $("#imagecontainer");
+    	const img = $(".aboutImage");
 
     	if($(window).width() < 992) {
     		nav.text("Menu");
     	} else {
     		nav.text("Cormac Smith");
     	}
+
+    	if($(window).width() < 768) {
+    		imgCon.css({
+    			'padding-bottom': '20px',
+    			'text-align':'center'
+    		});
+    		img.css("width", 15 + "em");
+    	} else {
+    		img.css("width", 100 + "%");
+    	}
     });
 
-    function checkNavBar() {
-
-    }
+    
 });
 
 function decode(a) {
