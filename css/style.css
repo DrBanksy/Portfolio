@@ -404,10 +404,13 @@ a{
 
 #navigation a{
 	color: #f5f5f7;
+			font-weight:  900px;
+
 }
 
 #navigation li {
 	padding: 0px 10px;
+
 }
 
 .navbar-toggler-icon {
@@ -608,7 +611,30 @@ li:hover {
 }
 
 
+#timelineSect li:hover {
+	transform: scale3d(1.05, 1.05, 1.05);
+    transition-delay: 0.1s;
+}
 
+#timelineSect li:after {
+	transform: translateY(+100px);
+  transition:0.6s;
+}
+
+.page-header{
+	text-align: center;
+	padding: 20px 5px 20px 5px;
+}
+
+
+.divider{
+	margin: 0 auto;
+	margin-top: 80px;
+	background-color: #34495e;
+	width: 100px;
+	height: 1px;
+	
+}
 
 
 
