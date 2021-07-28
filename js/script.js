@@ -154,16 +154,18 @@ $(document).ready(function(){
     	}
     }
 
-    $(window).on("scroll", checkNavBar);
-
-    function checkNavBar() {
-    	const body = $(".navbar-brand");
+    $(window).resize(function() {
+    	const nav = $(".navbar-brand");
 
     	if($(window).width() < 992) {
-    		$(".navbar-brand").text("Menu")
+    		nav.text("Menu");
     	} else {
-    		$(".navbar-brand").text("Cormac Smith")
+    		nav.text("Cormac Smith");
     	}
+    });
+
+    function checkNavBar() {
+
     }
 });
 
