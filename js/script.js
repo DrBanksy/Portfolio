@@ -16,7 +16,7 @@ $(document).ready(function(){
 	});
 
 	$('.owl-carousel').owlCarousel({
-	    loop:false,
+	    loop:true,
 	    items: 4,
 	    responsive:{
 	    	// 0 to 480 pixels use 1 item
@@ -26,8 +26,8 @@ $(document).ready(function(){
 	        480:{
 	            items:3
 	        },
-	        768:{
-	            items:4
+	        968: {
+	        	items:4
 	        }
 	    }
 	});
@@ -89,6 +89,18 @@ $(document).ready(function(){
     		$('.item4').easyPieChart({
 	            easing: 'easeInOut',
 	            barColor: 	'#107c41',
+	            trackColor: false,
+	            scaleColor: false,
+	            lineWidth: 4,
+	            size: 152,
+	            onStep: function(from, to, percent) {
+	            	$(this.el).find('.percent').text(Math.round(percent));
+            	}
+    		});
+
+    		$('.item5').easyPieChart({
+	            easing: 'easeInOut',
+	            barColor: 	'#0556f3',
 	            trackColor: false,
 	            scaleColor: false,
 	            lineWidth: 4,

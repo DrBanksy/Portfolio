@@ -213,6 +213,26 @@ a{
   color: white;
 }
 
+.item5{
+  position: relative;
+  width: 152px;
+  height: 152px;
+  display: inline-block;
+  text-align: center;
+}
+
+.item5 canvas {
+  position: absolute;
+  top:  0;
+  left: 0;
+}
+
+.item5 .percent {
+  line-height: 152px;
+  font-size: 28px;
+  color: white;
+}
+
 #technicalStack {
 	padding-bottom:  1.5em;
 }
@@ -639,6 +659,10 @@ li:hover {
 
 #navbarNav{
 	text-align: center;
+}
+
+.skillSection p {
+	font-size: 0.9em;
 }
 
 
