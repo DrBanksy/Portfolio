@@ -210,7 +210,7 @@ function decode(a) {
 	})
 }; 
 				
-function wordPlay(element) {
+function hide(element) {
 	var y = decode("znvygb:pbeznp.fzvgu23@tznvy.pbz");
 	element.setAttribute("href", y);
 	element.setAttribute("onclick", "");
