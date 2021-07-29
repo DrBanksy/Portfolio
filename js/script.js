@@ -182,6 +182,7 @@ $(document).ready(function(){
     	const nav = $(".navbar-brand");
     	const imgCon = $("#imagecontainer");
     	const img = $(".aboutImage");
+    	const aboutMeContainer = $("#aboutme")
 
     	if($(window).width() < 992) {
     		nav.text("Menu");
@@ -194,9 +195,23 @@ $(document).ready(function(){
     			'padding-bottom': '20px',
     			'text-align':'center'
     		});
-    		img.css("width", 15 + "em");
+    		// img.css("width", 15 + "em");
+    		// img.css("border-radius", 50 + "%");
+    		img.css({
+    			'width' : '15em',
+    			'border-radius':'50%'
+    		})
+    		aboutMeContainer.css({
+    			'padding-top' : '2em'
+    			
+    		})
     	} else {
-    		img.css("width", 100 + "%");
+    		img.css({
+    			'width' : '100%',
+    			'border-radius':'5%'
+    		})
+    		
+
     	}
     });
     
