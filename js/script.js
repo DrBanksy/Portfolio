@@ -124,18 +124,6 @@ $(document).ready(function(){
     	}
     });
 
-
-    // $("[data-fancybox]").fancybox();
-
-    $(".items").isotope({
-    	filter: "*",
-    	animationOptions: {
-    		duration: 1500,
-    		easing: 'linear',
-    		queue: false
-    	}
-    });
-
     $("#filters a").click(function() {
     	$("#filters .current").removeClass("current");
     	//this refers to the element that was clicked on
@@ -220,11 +208,20 @@ function checkScreenRes() {
 }
 
 $(window).on('load', function(){
-   		const loader = $(".loader");
+		const loader = $(".loader");
    		const loaderIcon = $(".spinner-border");
 
    		loaderIcon.delay(500).fadeOut(300);
    		loader.delay(600).fadeOut(500);
+
+   		$(".items").isotope({
+	    	filter: "*",
+	    	animationOptions: {
+	    		duration: 1500,
+	    		easing: 'linear',
+	    		queue: false
+	    	}
+	    });
 });
 
 $(window).on('load', checkScreenRes);
