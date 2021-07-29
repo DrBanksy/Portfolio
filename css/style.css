@@ -57,12 +57,14 @@ a{
 }
 
 .title .heading .name {
-	font-size: 3.5em;
+	font-size: 3em;
 }
 
 
 .title .heading .position {
 	font-size: 1.2em;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 .section {
@@ -70,7 +72,8 @@ a{
 }
 
 .title .heading {
-	max-width: 50%;
+	max-width: 100%;
+
 }
 
 .heading {

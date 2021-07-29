@@ -171,10 +171,12 @@ $(document).ready(function(){
 });
 
 function checkScreenRes() {
-	    	const nav = $(".navbar-brand");
+	   	const nav = $(".navbar-brand");
     	const imgCon = $("#imagecontainer");
     	const img = $(".aboutImage");
-    	const aboutMeContainer = $("#aboutme")
+    	const aboutMeContainer = $("#aboutme");
+    	const navArrows = $(".slides-navigation");
+
 
     	if($(window).width() < 992) {
     		nav.text("Menu");
@@ -196,12 +198,20 @@ function checkScreenRes() {
     		aboutMeContainer.css({
     			'padding-top' : '2em'
     			
-    		})
+    		});
+
+    		navArrows.css({
+    			'visibility' : 'hidden'
+    		});
     	} else {
     		img.css({
     			'width' : '100%',
     			'border-radius':'5%'
-    		})
+    		});
+
+    		navArrows.css({
+    			'visibility' : 'visible'
+    		});
     		
 
     	}
