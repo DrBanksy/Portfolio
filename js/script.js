@@ -178,8 +178,12 @@ $(document).ready(function(){
     	}
     }
 
-    $(window).resize(function() {
-    	const nav = $(".navbar-brand");
+    $(window).resize(checkScreenRes)
+    
+});
+
+function checkScreenRes() {
+	    	const nav = $(".navbar-brand");
     	const imgCon = $("#imagecontainer");
     	const img = $(".aboutImage");
     	const aboutMeContainer = $("#aboutme")
@@ -213,9 +217,7 @@ $(document).ready(function(){
     		
 
     	}
-    });
-    
-});
+}
 
 $(window).on('load', function(){
    		const loader = $(".loader");
@@ -224,6 +226,8 @@ $(window).on('load', function(){
    		loaderIcon.delay(500).fadeOut(300);
    		loader.delay(600).fadeOut(500);
 });
+
+$(window).on('load', checkScreenRes);
 
 function decode(a) {
 	return a.replace(/[a-zA-Z]/g, function(c){
