@@ -199,8 +199,15 @@ $(document).ready(function(){
     		img.css("width", 100 + "%");
     	}
     });
-
     
+});
+
+$(window).on('load', function(){
+   		const loader = $(".loader");
+   		const loaderIcon = $(".spinner-border");
+
+   		loaderIcon.delay(500).fadeOut(300);
+   		loader.delay(600).fadeOut(500);
 });
 
 function decode(a) {

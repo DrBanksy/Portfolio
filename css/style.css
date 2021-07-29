@@ -716,8 +716,7 @@ li:hover {
 	position: relative;
 }
 
-.loader .spinner-grow {
-	background-color: green;
+.loader .spinner-border {
 	position: absolute;
 	top: 50%;
 } 
