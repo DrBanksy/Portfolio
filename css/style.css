@@ -57,7 +57,7 @@ a{
 }
 
 .title .heading .name {
-	font-size: 40px;
+	font-size: 55px;
 }
 
 
@@ -698,6 +698,29 @@ li:hover {
 	background: linear-gradient(90deg, rgba(127,43,123,1) 30%, rgba(232,62,140,1) 92%);
 }
 
+
+.loader {
+	width: 100%;
+	height: 100%;
+	background-color: #fbfbfd;
+	z-index: 10000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	text-align: center;
+}
+
+.loader .inner {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.loader .spinner-grow {
+	background-color: green;
+	position: absolute;
+	top: 50%;
+} 
 
 
 
