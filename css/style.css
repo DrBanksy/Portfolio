@@ -405,12 +405,12 @@ a{
 
 .items .openFullBtn {
 	float:  left;
-	left:  -200px;
+	left:  -300px;
 }
 
 .items .projectLinkBtn {
 	float:  right;
-	right: -200px;
+	right: -300px;
 }
 
 .items .item:hover .openFullBtn {
