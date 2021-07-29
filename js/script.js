@@ -212,6 +212,10 @@ function checkScreenRes() {
     		navArrows.css({
     			'visibility' : 'visible'
     		});
+    		aboutMeContainer.css({
+    			'padding-top' : '100px'
+    			
+    		});
     		
 
     	}
