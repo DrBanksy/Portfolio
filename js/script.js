@@ -175,9 +175,7 @@ $(document).ready(function(){
 
 function checkScreenRes() {
 	   	const nav = $(".navbar-brand");
-    	const imgCon = $("#imagecontainer");
     	const img = $(".aboutImage");
-    	const aboutMeContainer = $("#aboutme");
     	const navArrows = $(".slides-navigation");
     	const githubBox = $(".gp-profile");
     	const githubBoxFollow = $(".gp-follow");
@@ -191,19 +189,11 @@ function checkScreenRes() {
     	}
 
     	if($(window).width() < 768) {
-    		imgCon.css({
-    			'padding-bottom': '20px',
-    			'text-align':'center'
-    		});
-    		
+
     		img.css({
     			'width' : '15em',
     			'border-radius':'50%'
     		})
-    		aboutMeContainer.css({
-    			'padding-top' : '2em'
-    			
-    		});
 
     		navArrows.css({
     			'visibility' : 'hidden'
@@ -216,10 +206,6 @@ function checkScreenRes() {
 
     		navArrows.css({
     			'visibility' : 'visible'
-    		});
-    		aboutMeContainer.css({
-    			'padding-top' : '100px'
-    			
     		});
     	}
 

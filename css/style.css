@@ -803,7 +803,17 @@ li:hover {
     right: auto;
 	}
 
+	#imagecontainer {
+		text-align: center;
+		padding-bottom: 2em;
+	}
+	#aboutme {
+		padding-top: 2em;
+	}
+
 }
+
+
 
 
 
