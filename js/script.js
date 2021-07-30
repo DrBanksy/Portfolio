@@ -172,6 +172,7 @@ $(document).ready(function(){
     
 });
 
+
 function checkScreenRes() {
 	   	const nav = $(".navbar-brand");
     	const imgCon = $("#imagecontainer");
@@ -181,6 +182,7 @@ function checkScreenRes() {
     	const githubBox = $(".gp-profile");
     	const githubBoxFollow = $(".gp-follow");
 
+    	
 
     	if($(window).width() < 992) {
     		nav.text("Menu");
@@ -193,8 +195,7 @@ function checkScreenRes() {
     			'padding-bottom': '20px',
     			'text-align':'center'
     		});
-    		// img.css("width", 15 + "em");
-    		// img.css("border-radius", 50 + "%");
+    		
     		img.css({
     			'width' : '15em',
     			'border-radius':'50%'
