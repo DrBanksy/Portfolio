@@ -176,8 +176,8 @@ function checkScreenRes() {
     	const img = $(".aboutImage");
     	const aboutMeContainer = $("#aboutme");
     	const navArrows = $(".slides-navigation");
-    	const githubBox = $("github-pinner");
-    	const githubBoxFollow = $(".gp-btn");
+    	const githubBox = $(".gp-profile");
+    	const githubBoxFollow = $(".gp-follow");
 
 
     	if($(window).width() < 992) {
@@ -218,6 +218,23 @@ function checkScreenRes() {
     			'padding-top' : '100px'
     			
     		});
+    	}
+
+    	// changing size of github box on smaller res devices
+    	if($(window).width() < 390) {
+    		githubBoxFollow.css({
+    			'visibility' : 'hidden'    		
+    		})
+    		githubBox.css({
+    			'width': '16em'
+    		})
+    	} else {
+    		githubBoxFollow.css({
+    			'visibility' : 'visibile'    		
+    		})
+    		githubBox.css({
+    			'width': '22em'
+    		})
     	}
 }
 
