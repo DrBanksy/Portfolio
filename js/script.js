@@ -1,4 +1,6 @@
 $(document).ready(function(){
+	$(window).resize(checkScreenRes)
+
 	$('#slides').superslides({
 		animation: 'fade',
 		play:  6000,
@@ -166,7 +168,7 @@ $(document).ready(function(){
     	}
     }
 
-    $(window).resize(checkScreenRes)
+    
     
 });
 
@@ -233,7 +235,7 @@ function checkScreenRes() {
     			'visibility' : 'visibile'    		
     		})
     		githubBox.css({
-    			'width': '22em'
+    			'width': '23em'
     		})
     	}
 }
