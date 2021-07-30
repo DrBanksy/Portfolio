@@ -725,7 +725,7 @@ li:hover {
 } 
 
 
-@media only screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
 	.timeline > li > .timeline-panel{
 		float:  right;
 		width: 85%;
