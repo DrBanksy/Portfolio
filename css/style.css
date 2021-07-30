@@ -765,5 +765,45 @@ li:hover {
 
 }
 
+@media only screen and (max-width: 768px) {
+	.timeline > li > .timeline-panel{
+		float:  right;
+		width: 85%;
+	}
+
+	.timeline > li.timeline-inverted > .timeline-panel {
+		float:  right;
+		width: 85%;
+	}
+
+	.timeline > li > .timeline-badge {
+		left:  0px;
+	}
+
+	.timeline:before {
+		left:  0px;
+	}
+
+	#timelineSect li:after {
+		transform: translateY(+100px);
+    transition: 0.6s;
+	}
+
+	.timeline > li > .timeline-panel:before {
+		border-left-width: 0;
+    border-right-width: 15px;
+    left: -15px;
+    right: auto;
+	}
+
+	.timeline > li > .timeline-panel:after { 
+		border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+	}
+
+}
+
 
 
