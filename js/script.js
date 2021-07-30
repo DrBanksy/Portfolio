@@ -176,6 +176,8 @@ function checkScreenRes() {
     	const img = $(".aboutImage");
     	const aboutMeContainer = $("#aboutme");
     	const navArrows = $(".slides-navigation");
+    	const githubBox = $("github-pinner");
+    	const githubBoxFollow = $(".gp-btn");
 
 
     	if($(window).width() < 992) {
@@ -216,10 +218,9 @@ function checkScreenRes() {
     			'padding-top' : '100px'
     			
     		});
-    		
-
     	}
 }
+
 
 $(window).on('load', function(){
 		const loader = $(".loader");
