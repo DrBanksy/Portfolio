@@ -123,6 +123,30 @@ $(document).ready(function(){
 	            	$(this.el).find('.percent').text(Math.round(percent));
             	}
     		});
+
+    		$('.item7').easyPieChart({
+	            easing: 'easeInOut',
+	            barColor: 	'#ff9900',
+	            trackColor: false,
+	            scaleColor: false,
+	            lineWidth: 4,
+	            size: 152,
+	            onStep: function(from, to, percent) {
+	            	$(this.el).find('.percent').text(Math.round(percent));
+            	}
+    		});
+
+    		$('.item8').easyPieChart({
+	            easing: 'easeInOut',
+	            barColor: 	'#e95b46',
+	            trackColor: false,
+	            scaleColor: false,
+	            lineWidth: 4,
+	            size: 152,
+	            onStep: function(from, to, percent) {
+	            	$(this.el).find('.percent').text(Math.round(percent));
+            	}
+    		});
     	}
     });
 

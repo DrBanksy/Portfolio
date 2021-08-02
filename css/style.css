@@ -256,6 +256,46 @@ a{
   color: white;
 }
 
+.item7{
+  position: relative;
+  width: 152px;
+  height: 152px;
+  display: inline-block;
+  text-align: center;
+}
+
+.item7 canvas {
+  position: absolute;
+  top:  0;
+  left: 0;
+}
+
+.item7 .percent {
+  line-height: 152px;
+  font-size: 28px;
+  color: white;
+}
+
+.item8{
+  position: relative;
+  width: 152px;
+  height: 152px;
+  display: inline-block;
+  text-align: center;
+}
+
+.item8 canvas {
+  position: absolute;
+  top:  0;
+  left: 0;
+}
+
+.item8 .percent {
+  line-height: 152px;
+  font-size: 28px;
+  color: white;
+}
+
 #technicalStack {
 	padding-bottom:  1.5em;
 }
