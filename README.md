@@ -9,10 +9,10 @@ Portfolio website which provides some information about me and my interests.
  - CSS
  
  # JavaScript plugins used
-- https://github.com/nicinabox/superslides
-- https://github.com/mattboldt/typed.js/
-- https://owlcarousel2.github.io/OwlCarousel2/docs/started-welcome.html
-- https://github.com/rendro/easy-pie-chart
-- https://github.com/mack/github-pinner
-- https://isotope.metafizzy.co/
-- https://fancyapps.com/docs/ui/fancybox/
+- https://github.com/nicinabox/superslides - Sliding images
+- https://github.com/mattboldt/typed.js/ - Typing animation
+- https://owlcarousel2.github.io/OwlCarousel2/docs/started-welcome.html - Responsive slider
+- https://github.com/rendro/easy-pie-chart - Simple pie chart 
+- https://github.com/mack/github-pinner - Github profile
+- https://isotope.metafizzy.co/ - Filter
+- https://fancyapps.com/docs/ui/fancybox/ - Image overlay
