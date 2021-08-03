@@ -40,7 +40,7 @@ $(document).ready(function(){
 
     $(window).scroll(function(){
     	if(window.pageYOffset > skillsTopOffset - $(window).height() + 200) {
-    		$('.chart').easyPieChart({
+    		$('#chart').easyPieChart({
 	            easing: 'easeInOut',
 	            barColor: 	'#fff',
 	            trackColor: false,
@@ -55,7 +55,7 @@ $(document).ready(function(){
     		 $('.item1').easyPieChart({
 	            easing: 'easeInOut',
 	            barColor: 	'#e74c3c',
-	            trackColor: false,
+	            trackColor: true,
 	            scaleColor: false,
 	            lineWidth: 4,
 	            size: 152,
@@ -67,7 +67,7 @@ $(document).ready(function(){
     		$('.item2').easyPieChart({
 	            easing: 'easeInOut',
 	            barColor: 	'#238636',
-	            trackColor: false,
+	            trackColor: true,
 	            scaleColor: false,
 	            lineWidth: 4,
 	            size: 152,
@@ -79,7 +79,7 @@ $(document).ready(function(){
     		$('.item3').easyPieChart({
 	            easing: 'easeInOut',
 	            barColor: 	'#f2c811',
-	            trackColor: false,
+	            trackColor: true,
 	            scaleColor: false,
 	            lineWidth: 4,
 	            size: 152,
@@ -91,7 +91,7 @@ $(document).ready(function(){
     		$('.item4').easyPieChart({
 	            easing: 'easeInOut',
 	            barColor: 	'#107c41',
-	            trackColor: false,
+	            trackColor: true,
 	            scaleColor: false,
 	            lineWidth: 4,
 	            size: 152,
@@ -103,7 +103,7 @@ $(document).ready(function(){
     		$('.item5').easyPieChart({
 	            easing: 'easeInOut',
 	            barColor: 	'#0556f3',
-	            trackColor: false,
+	            trackColor: true,
 	            scaleColor: false,
 	            lineWidth: 4,
 	            size: 152,
@@ -115,7 +115,7 @@ $(document).ready(function(){
     		$('.item6').easyPieChart({
 	            easing: 'easeInOut',
 	            barColor: 	'#7f52ff',
-	            trackColor: false,
+	            trackColor: true,
 	            scaleColor: false,
 	            lineWidth: 4,
 	            size: 152,
@@ -127,7 +127,7 @@ $(document).ready(function(){
     		$('.item7').easyPieChart({
 	            easing: 'easeInOut',
 	            barColor: 	'#ff9900',
-	            trackColor: false,
+	            trackColor: true,
 	            scaleColor: false,
 	            lineWidth: 4,
 	            size: 152,
@@ -139,7 +139,7 @@ $(document).ready(function(){
     		$('.item8').easyPieChart({
 	            easing: 'easeInOut',
 	            barColor: 	'#e95b46',
-	            trackColor: false,
+	            trackColor: true,
 	            scaleColor: false,
 	            lineWidth: 4,
 	            size: 152,
