@@ -34,7 +34,6 @@ $(document).ready(function(){
 	    }
 	});
 
-
 	//get position of skills container
     var skillsTopOffset = $(".skillSection").offset().top;
 
@@ -284,3 +283,10 @@ function hide(element) {
 	element.setAttribute("onclick", "");
 	element.firstChild.nodeValue = "Message";
 };
+
+
+
+
+
+
+
