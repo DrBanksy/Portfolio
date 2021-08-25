@@ -21,3 +21,4 @@ https://drbanksy.github.io/Portfolio/
 
 # Known bugs
 - Smooth scroll on safari
+- isotope plugin stacking images when window resized
