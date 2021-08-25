@@ -18,3 +18,6 @@ https://drbanksy.github.io/Portfolio/
 - https://github.com/mack/github-pinner - Github profile
 - https://isotope.metafizzy.co/ - Filter
 - https://fancyapps.com/docs/ui/fancybox/ - Image overlay
+
+# Known bugs
+- Smooth scroll on safari
